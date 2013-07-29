@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E78F0D01-339C-4F8A-8452-C9644F9C2A02}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PayrollSystem</RootNamespace>
+    <AssemblyName>PayrollSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addallowance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addallowance.Designer.cs">
+      <DependentUpon>addallowance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addBranchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addBranchForm.Designer.cs">
+      <DependentUpon>addBranchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addDepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addDepartmentForm.Designer.cs">
+      <DependentUpon>addDepartmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addEmployeeFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addEmployeeFrom.Designer.cs">
+      <DependentUpon>addEmployeeFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addEmploymentTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addEmploymentTypeForm.Designer.cs">
+      <DependentUpon>addEmploymentTypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Additionals.cs" />
+    <Compile Include="addPositionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addPositionForm.Designer.cs">
+      <DependentUpon>addPositionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addSalaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addSalaryForm.Designer.cs">
+      <DependentUpon>addSalaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addScheduleForm.Designer.cs">
+      <DependentUpon>addScheduleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addholiday.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addholiday.Designer.cs">
+      <DependentUpon>addholiday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceComputation.cs" />
+    <Compile Include="DeductandEarning.cs" />
+    <Compile Include="DrawPayslip.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307260350358_InitialCreate.cs" />
+    <Compile Include="Migrations\201307260350358_InitialCreate.Designer.cs">
+      <DependentUpon>201307260350358_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307280120014_a.cs" />
+    <Compile Include="Migrations\201307280120014_a.Designer.cs">
+      <DependentUpon>201307280120014_a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307292247231_yes.cs" />
+    <Compile Include="Migrations\201307292247231_yes.Designer.cs">
+      <DependentUpon>201307292247231_yes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\Payroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Migrations\Payroll.designer.cs">
+      <DependentUpon>Payroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Populator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransferZKUserInfo.cs" />
+    <EmbeddedResource Include="addallowance.resx">
+      <DependentUpon>addallowance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addBranchForm.resx">
+      <DependentUpon>addBranchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addDepartmentForm.resx">
+      <DependentUpon>addDepartmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addEmployeeFrom.resx">
+      <DependentUpon>addEmployeeFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addEmploymentTypeForm.resx">
+      <DependentUpon>addEmploymentTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addPositionForm.resx">
+      <DependentUpon>addPositionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addSalaryForm.resx">
+      <DependentUpon>addSalaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addScheduleForm.resx">
+      <DependentUpon>addScheduleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addholiday.resx">
+      <DependentUpon>addholiday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307260350358_InitialCreate.resx">
+      <DependentUpon>201307260350358_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307280120014_a.resx">
+      <DependentUpon>201307280120014_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307292247231_yes.resx">
+      <DependentUpon>201307292247231_yes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\Payroll.resx">
+      <DependentUpon>Payroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
