@@ -51,71 +51,72 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addallowance.cs">
+    <Compile Include="Forms\addallowance.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addallowance.Designer.cs">
+    <Compile Include="Forms\addallowance.Designer.cs">
       <DependentUpon>addallowance.cs</DependentUpon>
     </Compile>
-    <Compile Include="addBranchForm.cs">
+    <Compile Include="Forms\addBranchForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addBranchForm.Designer.cs">
+    <Compile Include="Forms\addBranchForm.Designer.cs">
       <DependentUpon>addBranchForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="addDepartmentForm.cs">
+    <Compile Include="Forms\addDepartmentForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addDepartmentForm.Designer.cs">
+    <Compile Include="Forms\addDepartmentForm.Designer.cs">
       <DependentUpon>addDepartmentForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="addEmployeeFrom.cs">
+    <Compile Include="Forms\addEmployeeFrom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addEmployeeFrom.Designer.cs">
+    <Compile Include="Forms\addEmployeeFrom.Designer.cs">
       <DependentUpon>addEmployeeFrom.cs</DependentUpon>
     </Compile>
-    <Compile Include="addEmploymentTypeForm.cs">
+    <Compile Include="Forms\addEmploymentTypeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addEmploymentTypeForm.Designer.cs">
+    <Compile Include="Forms\addEmploymentTypeForm.Designer.cs">
       <DependentUpon>addEmploymentTypeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Additionals.cs" />
-    <Compile Include="addPositionForm.cs">
+    <Compile Include="Class\Additionals.cs" />
+    <Compile Include="Forms\addPositionForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addPositionForm.Designer.cs">
+    <Compile Include="Forms\addPositionForm.Designer.cs">
       <DependentUpon>addPositionForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="addSalaryForm.cs">
+    <Compile Include="Forms\addSalaryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addSalaryForm.Designer.cs">
+    <Compile Include="Forms\addSalaryForm.Designer.cs">
       <DependentUpon>addSalaryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="addScheduleForm.cs">
+    <Compile Include="Forms\addScheduleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addScheduleForm.Designer.cs">
+    <Compile Include="Forms\addScheduleForm.Designer.cs">
       <DependentUpon>addScheduleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="addholiday.cs">
+    <Compile Include="Forms\addholiday.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addholiday.Designer.cs">
+    <Compile Include="Forms\addholiday.Designer.cs">
       <DependentUpon>addholiday.cs</DependentUpon>
     </Compile>
-    <Compile Include="AttendanceComputation.cs" />
-    <Compile Include="DeductandEarning.cs" />
-    <Compile Include="DrawPayslip.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Class\AttendanceComputation.cs" />
+    <Compile Include="Class\DeductandEarning.cs" />
+    <Compile Include="Class\DrawPayslip.cs" />
+    <Compile Include="Class\Employee.cs" />
+    <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ZKCountLogs.cs" />
     <Compile Include="Migrations\201307260350358_InitialCreate.cs" />
     <Compile Include="Migrations\201307260350358_InitialCreate.Designer.cs">
       <DependentUpon>201307260350358_InitialCreate.cs</DependentUpon>
@@ -129,44 +130,44 @@
       <DependentUpon>201307292247231_yes.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Migrations\Payroll.cs">
+    <Compile Include="Forms\Payroll.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Migrations\Payroll.designer.cs">
+    <Compile Include="Forms\Payroll.designer.cs">
       <DependentUpon>Payroll.cs</DependentUpon>
     </Compile>
-    <Compile Include="Populator.cs" />
+    <Compile Include="Class\Populator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TransferZKUserInfo.cs" />
-    <EmbeddedResource Include="addallowance.resx">
+    <Compile Include="Class\TransferZKUserInfo.cs" />
+    <EmbeddedResource Include="Forms\addallowance.resx">
       <DependentUpon>addallowance.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="addBranchForm.resx">
+    <EmbeddedResource Include="Forms\addBranchForm.resx">
       <DependentUpon>addBranchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="addDepartmentForm.resx">
+    <EmbeddedResource Include="Forms\addDepartmentForm.resx">
       <DependentUpon>addDepartmentForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="addEmployeeFrom.resx">
+    <EmbeddedResource Include="Forms\addEmployeeFrom.resx">
       <DependentUpon>addEmployeeFrom.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="addEmploymentTypeForm.resx">
+    <EmbeddedResource Include="Forms\addEmploymentTypeForm.resx">
       <DependentUpon>addEmploymentTypeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="addPositionForm.resx">
+    <EmbeddedResource Include="Forms\addPositionForm.resx">
       <DependentUpon>addPositionForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="addSalaryForm.resx">
+    <EmbeddedResource Include="Forms\addSalaryForm.resx">
       <DependentUpon>addSalaryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="addScheduleForm.resx">
+    <EmbeddedResource Include="Forms\addScheduleForm.resx">
       <DependentUpon>addScheduleForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="addholiday.resx">
+    <EmbeddedResource Include="Forms\addholiday.resx">
       <DependentUpon>addholiday.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201307260350358_InitialCreate.resx">
@@ -178,7 +179,7 @@
     <EmbeddedResource Include="Migrations\201307292247231_yes.resx">
       <DependentUpon>201307292247231_yes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\Payroll.resx">
+    <EmbeddedResource Include="Forms\Payroll.resx">
       <DependentUpon>Payroll.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -202,6 +203,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

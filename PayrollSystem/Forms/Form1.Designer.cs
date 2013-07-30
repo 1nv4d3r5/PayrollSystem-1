@@ -44,7 +44,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.txtdpendent = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtuid = new System.Windows.Forms.Label();
             this.txtPhilhealth = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtPagibig = new System.Windows.Forms.TextBox();
@@ -93,6 +92,8 @@
             this.label27 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.txtuid = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -286,7 +287,7 @@
             this.button5.FlatAppearance.BorderSize = 2;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(888, 608);
+            this.button5.Location = new System.Drawing.Point(730, 609);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(96, 40);
             this.button5.TabIndex = 91;
@@ -297,9 +298,10 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.txtuid);
+            this.panel3.Controls.Add(this.linkLabel2);
             this.panel3.Controls.Add(this.txtdpendent);
             this.panel3.Controls.Add(this.label10);
-            this.panel3.Controls.Add(this.txtuid);
             this.panel3.Controls.Add(this.txtPhilhealth);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.txtPagibig);
@@ -350,15 +352,6 @@
             this.label10.Size = new System.Drawing.Size(77, 16);
             this.label10.TabIndex = 87;
             this.label10.Text = "Dependents";
-            // 
-            // txtuid
-            // 
-            this.txtuid.AutoSize = true;
-            this.txtuid.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtuid.Location = new System.Drawing.Point(86, 154);
-            this.txtuid.Name = "txtuid";
-            this.txtuid.Size = new System.Drawing.Size(0, 16);
-            this.txtuid.TabIndex = 89;
             // 
             // txtPhilhealth
             // 
@@ -580,7 +573,7 @@
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Location = new System.Drawing.Point(29, 26);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(154, 115);
+            this.pictureBox1.Size = new System.Drawing.Size(126, 84);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -588,7 +581,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(28, 154);
+            this.label1.Location = new System.Drawing.Point(26, 160);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 16);
             this.label1.TabIndex = 36;
@@ -831,7 +824,7 @@
             this.btnSave.FlatAppearance.BorderSize = 2;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnSave.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(772, 608);
+            this.btnSave.Location = new System.Drawing.Point(616, 609);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(96, 40);
             this.btnSave.TabIndex = 88;
@@ -850,6 +843,25 @@
             this.linkLabel1.TabIndex = 93;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Synchronize";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.LinkColor = System.Drawing.Color.Red;
+            this.linkLabel2.Location = new System.Drawing.Point(44, 113);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(87, 16);
+            this.linkLabel2.TabIndex = 91;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Upload Image";
+            // 
+            // txtuid
+            // 
+            this.txtuid.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtuid.Location = new System.Drawing.Point(112, 154);
+            this.txtuid.Name = "txtuid";
+            this.txtuid.Size = new System.Drawing.Size(38, 22);
+            this.txtuid.TabIndex = 92;
             // 
             // Form1
             // 
@@ -905,7 +917,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox txtdpendent;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label txtuid;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.TextBox txtPhilhealth;
         private System.Windows.Forms.Label label7;
@@ -954,6 +965,8 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.TextBox txtuid;
 
 
     }

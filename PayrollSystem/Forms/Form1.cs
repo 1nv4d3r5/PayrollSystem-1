@@ -85,11 +85,13 @@ namespace PayrollSystem
         }
 
        
+       
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             DataPopulator();
-            txtuid.Visible = false;
+           
         }
 
         private void DataPopulator()
@@ -301,6 +303,7 @@ namespace PayrollSystem
                     {
                         var employee = new Employee
                         {
+                            //EmployeePic = byte.Parse(pictureBox1.Image),
                             UserId = int.Parse(txtuid.Text),
                             FirstName = txtFName.Text,
                             LastName = txtLName.Text,
@@ -327,7 +330,7 @@ namespace PayrollSystem
 
 
                         MessageBox.Show("Employee has been registered.", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        txtuid.Visible = false;
+                        txtuid.Clear();
                         txtFName.Clear();
                         txtLName.Clear();
                         txtAddress.Clear();

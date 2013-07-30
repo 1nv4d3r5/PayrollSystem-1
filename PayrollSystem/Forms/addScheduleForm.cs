@@ -95,6 +95,15 @@ namespace PayrollSystem
                 dataGridView1.Enabled = false;
 
                 textBox1.Clear();
+
+                textBox1.Enabled = true;
+                dateTimePicker1.Enabled = true;
+                dateTimePicker2.Enabled = true;
+                dateTimePicker3.Enabled = true;
+                dateTimePicker4.Enabled = true;
+                dateTimePicker5.Enabled = true;
+
+
             }
             else
             {
@@ -126,8 +135,21 @@ namespace PayrollSystem
                     myContext.Schedules.Add(schedule);
                     myContext.SaveChanges();
 
-                    MessageBox.Show("Added Successfully.", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    //MessageBox.Show("Added Successfully.", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     textBox1.Clear();
+                    LinkdgSchedule();
+
+                    btnSave.Text = "Add";
+
+                    textBox1.Enabled = false;
+                    dateTimePicker1.Enabled = false;
+                    dateTimePicker2.Enabled = false;
+                    dateTimePicker3.Enabled = false;
+                    dateTimePicker4.Enabled = false;
+                    dateTimePicker5.Enabled = false;
+                    button1.Enabled = false;
+                    
                 }
             }
             }
@@ -136,6 +158,19 @@ namespace PayrollSystem
         private void addScheduleForm_Load(object sender, EventArgs e)
         {
             LinkdgSchedule();
+
+            textBox1.Clear();
+
+            textBox1.Enabled = false;
+            dateTimePicker1.Enabled = false;
+            dateTimePicker2.Enabled = false;
+            dateTimePicker3.Enabled = false;
+            dateTimePicker4.Enabled = false;
+            dateTimePicker5.Enabled = false;
+            button1.Enabled = false;
+
+            button1.Text = "Edit";
+            btnSave.Text = "Save";
 
         }
 

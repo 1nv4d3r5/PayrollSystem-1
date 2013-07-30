@@ -34,25 +34,22 @@ namespace PayrollSystem
             try
             {
                 txtuid.Text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
-                txtuname.Text = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
-                txtposition.Text = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
-                txtdepartment.Text = dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
-                txtcivilstat.Text = dataGridView1.SelectedRows[0].Cells[4].Value.ToString();
-                txtnodependent.Text = dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
-                txtemptype.Text = dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
-                txtdrate.Text = dataGridView1.SelectedRows[0].Cells[7].Value.ToString();
-                txtactivation.Text = dataGridView1.SelectedRows[0].Cells[8].Value.ToString();
-                Txrender.Text = dataGridView1.SelectedRows[0].Cells[9].Value.ToString();
-                Txabsent.Text = dataGridView1.SelectedRows[0].Cells[10].Value.ToString();
-                txtrate.Text = dataGridView1.SelectedRows[0].Cells[11].Value.ToString();
-
+                txtuname.Text = dataGridView1.SelectedRows[0].Cells[8].Value.ToString() + dataGridView1.SelectedRows[0].Cells[9].Value.ToString();
+                txtposition.Text = dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
+                txtdepartment.Text = dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
+                txtcivilstat.Text = dataGridView1.SelectedRows[0].Cells[14].Value.ToString();
+                txtnodep.Text = dataGridView1.SelectedRows[0].Cells[15].Value.ToString();
+                txtemptype.Text = dataGridView1.SelectedRows[0].Cells[7].Value.ToString();
+                txtschedid.Text = dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
+                txtsalaryid.Text = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
+                //pictureBox1.Image = (dataGridView1.SelectedRows[0].Cells[14].Value.ToString());
+                
                 panel4.Refresh();
 
                 
             }
             catch { }
         }
-
 
         private void Search()
         {
@@ -73,17 +70,17 @@ namespace PayrollSystem
 
         private void txtsearch_KeyDown(object sender, KeyEventArgs e)
         {
-            //Search();
+            Search();
         }
 
         private void txtsearch_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //Search();
+            Search();
         }
 
         private void txtsearch_KeyUp(object sender, KeyEventArgs e)
         {
-           // Search();
+           Search();
         }
 
         //private void btncompute_Click(object sender, EventArgs e)
@@ -181,6 +178,7 @@ namespace PayrollSystem
             dp.d.TotalIncome = "4000";
             dp.panel1_Paint(sender, e, de);
         }
+
 
 
     }

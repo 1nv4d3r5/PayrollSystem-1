@@ -45,32 +45,22 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtdrate = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.Txrender = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.txtuid = new System.Windows.Forms.TextBox();
-            this.Txabsent = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.txtuname = new System.Windows.Forms.TextBox();
-            this.txtnodependent = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.txtrate = new System.Windows.Forms.TextBox();
-            this.txtposition = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtactivation = new System.Windows.Forms.TextBox();
-            this.txtdepartment = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtemptype = new System.Windows.Forms.TextBox();
+            this.txtnodep = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtemptype = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtschedid = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtsalaryid = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtuid = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtuname = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtposition = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtdepartment = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtcivilstat = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -263,32 +253,22 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Controls.Add(this.label12);
-            this.panel3.Controls.Add(this.textBox3);
-            this.panel3.Controls.Add(this.label11);
-            this.panel3.Controls.Add(this.txtdrate);
-            this.panel3.Controls.Add(this.label9);
-            this.panel3.Controls.Add(this.Txrender);
-            this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Controls.Add(this.label35);
-            this.panel3.Controls.Add(this.txtuid);
-            this.panel3.Controls.Add(this.Txabsent);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.label34);
-            this.panel3.Controls.Add(this.txtuname);
-            this.panel3.Controls.Add(this.txtnodependent);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.label16);
-            this.panel3.Controls.Add(this.txtrate);
-            this.panel3.Controls.Add(this.txtposition);
-            this.panel3.Controls.Add(this.label10);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.txtactivation);
-            this.panel3.Controls.Add(this.txtdepartment);
-            this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.txtemptype);
+            this.panel3.Controls.Add(this.txtnodep);
             this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.txtemptype);
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Controls.Add(this.txtschedid);
+            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.txtsalaryid);
+            this.panel3.Controls.Add(this.label10);
+            this.panel3.Controls.Add(this.txtuid);
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.txtuname);
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.txtposition);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.txtdepartment);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.txtcivilstat);
             this.panel3.Controls.Add(this.label7);
@@ -297,266 +277,177 @@
             this.panel3.Size = new System.Drawing.Size(1002, 183);
             this.panel3.TabIndex = 2;
             // 
-            // textBox1
+            // txtnodep
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(638, 31);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(136, 23);
-            this.textBox1.TabIndex = 63;
+            this.txtnodep.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnodep.Location = new System.Drawing.Point(727, 24);
+            this.txtnodep.Name = "txtnodep";
+            this.txtnodep.Size = new System.Drawing.Size(42, 26);
+            this.txtnodep.TabIndex = 69;
             // 
-            // label12
+            // label5
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(530, 32);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(41, 16);
-            this.label12.TabIndex = 62;
-            this.label12.Text = "Shift:";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(573, 29);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(130, 18);
+            this.label5.TabIndex = 65;
+            this.label5.Text = "No. of Dependent";
             // 
-            // textBox3
+            // txtemptype
             // 
-            this.textBox3.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(638, 119);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(62, 23);
-            this.textBox3.TabIndex = 61;
+            this.txtemptype.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtemptype.Location = new System.Drawing.Point(727, 59);
+            this.txtemptype.Name = "txtemptype";
+            this.txtemptype.Size = new System.Drawing.Size(242, 26);
+            this.txtemptype.TabIndex = 70;
             // 
-            // label11
+            // label8
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(530, 120);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(67, 16);
-            this.label11.TabIndex = 60;
-            this.label11.Text = "Salary Id:";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(573, 61);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(131, 18);
+            this.label8.TabIndex = 66;
+            this.label8.Text = "Employment Type";
             // 
-            // txtdrate
+            // txtschedid
             // 
-            this.txtdrate.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdrate.Location = new System.Drawing.Point(638, 149);
-            this.txtdrate.Name = "txtdrate";
-            this.txtdrate.Size = new System.Drawing.Size(62, 23);
-            this.txtdrate.TabIndex = 59;
+            this.txtschedid.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtschedid.Location = new System.Drawing.Point(727, 91);
+            this.txtschedid.Name = "txtschedid";
+            this.txtschedid.Size = new System.Drawing.Size(242, 26);
+            this.txtschedid.TabIndex = 71;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(804, 121);
+            this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(573, 93);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(87, 16);
-            this.label9.TabIndex = 58;
-            this.label9.Text = "Basic Salary:";
+            this.label9.Size = new System.Drawing.Size(89, 18);
+            this.label9.TabIndex = 67;
+            this.label9.Text = "Schedule Id";
             // 
-            // Txrender
+            // txtsalaryid
             // 
-            this.Txrender.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txrender.Location = new System.Drawing.Point(931, 85);
-            this.Txrender.Name = "Txrender";
-            this.Txrender.Size = new System.Drawing.Size(45, 23);
-            this.Txrender.TabIndex = 57;
+            this.txtsalaryid.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtsalaryid.Location = new System.Drawing.Point(727, 123);
+            this.txtsalaryid.Name = "txtsalaryid";
+            this.txtsalaryid.Size = new System.Drawing.Size(242, 26);
+            this.txtsalaryid.TabIndex = 72;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(571, 125);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(68, 18);
+            this.label10.TabIndex = 68;
+            this.label10.Text = "Salary Id";
+            // 
+            // txtuid
+            // 
+            this.txtuid.AutoSize = true;
+            this.txtuid.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtuid.Location = new System.Drawing.Point(70, 140);
+            this.txtuid.Name = "txtuid";
+            this.txtuid.Size = new System.Drawing.Size(0, 18);
+            this.txtuid.TabIndex = 64;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(19, 19);
+            this.pictureBox1.Location = new System.Drawing.Point(15, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(127, 122);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(801, 61);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(98, 16);
-            this.label35.TabIndex = 56;
-            this.label35.Text = "No. Of Absents";
-            // 
-            // txtuid
-            // 
-            this.txtuid.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtuid.Location = new System.Drawing.Point(287, 19);
-            this.txtuid.Name = "txtuid";
-            this.txtuid.Size = new System.Drawing.Size(79, 23);
-            this.txtuid.TabIndex = 44;
-            // 
-            // Txabsent
-            // 
-            this.Txabsent.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txabsent.Location = new System.Drawing.Point(931, 55);
-            this.Txabsent.Name = "Txabsent";
-            this.Txabsent.Size = new System.Drawing.Size(44, 23);
-            this.Txabsent.TabIndex = 55;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(185, 26);
+            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(31, 140);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 16);
+            this.label2.Size = new System.Drawing.Size(23, 18);
             this.label2.TabIndex = 36;
-            this.label2.Text = "User ID:";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(801, 91);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(101, 16);
-            this.label34.TabIndex = 54;
-            this.label34.Text = "Days Rendered:";
+            this.label2.Text = "ID";
             // 
             // txtuname
             // 
-            this.txtuname.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtuname.Location = new System.Drawing.Point(287, 59);
+            this.txtuname.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtuname.Location = new System.Drawing.Point(272, 25);
             this.txtuname.Name = "txtuname";
-            this.txtuname.Size = new System.Drawing.Size(217, 23);
+            this.txtuname.Size = new System.Drawing.Size(242, 26);
             this.txtuname.TabIndex = 45;
-            // 
-            // txtnodependent
-            // 
-            this.txtnodependent.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnodependent.Location = new System.Drawing.Point(931, 25);
-            this.txtnodependent.Name = "txtnodependent";
-            this.txtnodependent.Size = new System.Drawing.Size(44, 23);
-            this.txtnodependent.TabIndex = 53;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(187, 62);
+            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(172, 30);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 16);
+            this.label3.Size = new System.Drawing.Size(50, 18);
             this.label3.TabIndex = 37;
-            this.label3.Text = "Name:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(804, 32);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(124, 16);
-            this.label16.TabIndex = 52;
-            this.label16.Text = "No. Of Dependents:";
-            // 
-            // txtrate
-            // 
-            this.txtrate.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtrate.Location = new System.Drawing.Point(912, 118);
-            this.txtrate.Name = "txtrate";
-            this.txtrate.Size = new System.Drawing.Size(64, 23);
-            this.txtrate.TabIndex = 51;
+            this.label3.Text = "Name";
             // 
             // txtposition
             // 
-            this.txtposition.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtposition.Location = new System.Drawing.Point(287, 88);
+            this.txtposition.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtposition.Location = new System.Drawing.Point(272, 59);
             this.txtposition.Name = "txtposition";
-            this.txtposition.Size = new System.Drawing.Size(136, 23);
+            this.txtposition.Size = new System.Drawing.Size(242, 26);
             this.txtposition.TabIndex = 46;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(530, 147);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(75, 16);
-            this.label10.TabIndex = 42;
-            this.label10.Text = "Daily Rate:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(185, 95);
+            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(172, 62);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 16);
+            this.label4.Size = new System.Drawing.Size(65, 18);
             this.label4.TabIndex = 38;
-            this.label4.Text = "Position:";
-            // 
-            // txtactivation
-            // 
-            this.txtactivation.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtactivation.Location = new System.Drawing.Point(638, 89);
-            this.txtactivation.Name = "txtactivation";
-            this.txtactivation.Size = new System.Drawing.Size(136, 23);
-            this.txtactivation.TabIndex = 50;
+            this.label4.Text = "Position";
             // 
             // txtdepartment
             // 
-            this.txtdepartment.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdepartment.Location = new System.Drawing.Point(287, 117);
+            this.txtdepartment.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdepartment.Location = new System.Drawing.Point(272, 91);
             this.txtdepartment.Name = "txtdepartment";
-            this.txtdepartment.Size = new System.Drawing.Size(136, 23);
+            this.txtdepartment.Size = new System.Drawing.Size(242, 26);
             this.txtdepartment.TabIndex = 47;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(530, 91);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 16);
-            this.label8.TabIndex = 41;
-            this.label8.Text = "Activation:";
-            // 
-            // txtemptype
-            // 
-            this.txtemptype.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtemptype.Location = new System.Drawing.Point(638, 61);
-            this.txtemptype.Name = "txtemptype";
-            this.txtemptype.Size = new System.Drawing.Size(136, 23);
-            this.txtemptype.TabIndex = 49;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(530, 61);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 16);
-            this.label5.TabIndex = 43;
-            this.label5.Text = "Employee Type:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(185, 123);
+            this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(172, 94);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 16);
+            this.label6.Size = new System.Drawing.Size(90, 18);
             this.label6.TabIndex = 39;
             this.label6.Text = "Department";
             // 
             // txtcivilstat
             // 
-            this.txtcivilstat.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcivilstat.Location = new System.Drawing.Point(287, 147);
+            this.txtcivilstat.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcivilstat.Location = new System.Drawing.Point(272, 123);
             this.txtcivilstat.Name = "txtcivilstat";
-            this.txtcivilstat.Size = new System.Drawing.Size(136, 23);
+            this.txtcivilstat.Size = new System.Drawing.Size(242, 26);
             this.txtcivilstat.TabIndex = 48;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(185, 150);
+            this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(170, 126);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 16);
+            this.label7.Size = new System.Drawing.Size(86, 18);
             this.label7.TabIndex = 40;
-            this.label7.Text = "Civil Status:";
+            this.label7.Text = "Civil Status";
             // 
             // button1
             // 
@@ -619,7 +510,6 @@
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox txtuid;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtuname;
         private System.Windows.Forms.Label label3;
@@ -627,32 +517,23 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtdepartment;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox Txrender;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.TextBox Txabsent;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox txtnodependent;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox txtrate;
-        private System.Windows.Forms.TextBox txtactivation;
-        private System.Windows.Forms.TextBox txtemptype;
         private System.Windows.Forms.TextBox txtcivilstat;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txtdrate;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnsynchronize;
         private System.Windows.Forms.Button btncompute;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtnodep;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtemptype;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtschedid;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtsalaryid;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label txtuid;
     }
 }
